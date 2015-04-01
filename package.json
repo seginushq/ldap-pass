@@ -1,0 +1,20 @@
+{
+  "name": "ldap-pass",
+  "description": "Managing an account password on LDAP",
+  "keywords": "ldap",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "TADOKORO Saneyuki",
+    "email": "saneyan@seginus.jp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seginshq/ldap-pass.git"
+  },
+  "dependencies": {
+    "typescript": "*",
+    "gulp": "*",
+    "ldapjs": "*"
+  }
+}
