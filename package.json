@@ -1,7 +1,7 @@
 {
   "name": "ldap-pass",
   "description": "Managing an account password on LDAP",
-  "keywords": "ldap",
+  "keywords": ["ldap-pass", "ldap", "management"],
   "version": "0.0.1",
   "license": "MIT",
   "author": {
@@ -13,8 +13,21 @@
     "url": "https://github.com/seginshq/ldap-pass.git"
   },
   "dependencies": {
+    "ldapjs": "*",
+    "express": "*"
+  },
+  "devDependencies": {
     "typescript": "*",
+    "jasmine-node": "*",
     "gulp": "*",
-    "ldapjs": "*"
-  }
+    "gulp-typescript": "*"
+  },
+  "engines": [
+  ],
+  "scripts": {
+    "start": "node app",
+    "test": "gulp test",
+    "build": "gulp build"
+  },
+  "readmeFilename": "README.md"
 }
