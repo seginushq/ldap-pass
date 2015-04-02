@@ -1,5 +1,5 @@
 #
-# ldap-pass Dockerfile based on Ubuntu
+# ldap-pass Dockerfile based on Ubuntu.
 #
 
 # Pull base image.
@@ -15,14 +15,13 @@ RUN apt-get upgrade -y
 RUN apt-get install -y nodejs npm
 
 # Bundle ldap-pass source code inside the Docker image.
-COPY . /src
+ADD . /src
 
 # Define working directory.
 WORKDIR /src
 
 # Setup ldap-pass.
 RUN npm install
-RUN npm build
 
 # Set environment variables.
 ENV HOME /root
@@ -30,4 +29,5 @@ ENV HOME /root
 # Expose ports.
 EXPOSE 3000
 
+# Start HTTPS server with NodeJS.
 CMD ["npm", "start"]

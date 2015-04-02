@@ -14,20 +14,18 @@
   },
   "dependencies": {
     "ldapjs": "*",
-    "express": "*"
+    "express": "*",
+    "express-validator": "*",
+    "body-parser": "*"
   },
   "devDependencies": {
-    "typescript": "*",
-    "jasmine-node": "*",
-    "gulp": "*",
-    "gulp-typescript": "*"
+    "jasmine-node": "*"
   },
   "engines": [
   ],
   "scripts": {
     "start": "node app",
-    "test": "gulp test",
-    "build": "gulp build"
+    "test": "jasmine-node tests/*.js"
   },
   "readmeFilename": "README.md"
 }

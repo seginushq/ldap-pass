@@ -1,0 +1,7 @@
+{
+  "ldap": {
+    "host": "example.com",
+    "port": "389",
+    "dn": "uid=%s,ou=People,dc=example,dc=com"
+  }
+}

@@ -1,1 +1,4 @@
 node_modules/
+release/
+app/config.json
+npm-debug.log
