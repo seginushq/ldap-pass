@@ -27,7 +27,7 @@ RUN npm install
 ENV HOME /root
 
 # Expose ports.
-EXPOSE 3000
+EXPOSE 80
 
 # Start HTTPS server with NodeJS.
 CMD ["npm", "start"]
