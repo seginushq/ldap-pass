@@ -19,24 +19,39 @@
 
     <main>
       <form class="form">
-        <section class="inkblue-tie">
+        <section class="tie inkblue-tie">
           <div class="wrapper">
             <h3>I. Type your User ID and current password.</h3>
+            <div class="attension">Invalid user name.</div>
             <ul>
               <li><input type="text" placeholder="User ID"><span class="bigger bold"> @example.com</span></li>
-              <li><input type="password" placeholder="Current password"></li>
             </ul>
+            <button type="button" class="button light-button">Send</button>
           </div>
-        </section >
+        </section>
 
-        <section class="green-tie">
+        <section class="tie black-tie">
           <div class="wrapper">
-            <h3>II. Type your new password and submit.</h3>
+            <h3>II. Enter your validation code.</h3>
+            <div class="attension">Invalid validation code.</div>
             <ul>
+              <li><input type="text" placeholder="Validation code"></li>
+            </ul>
+            <button type="button" class="button light-button">Validate</button>
+          </div>
+        </section>
+
+        <section class="tie green-tie">
+          <div class="wrapper">
+            <h3>III. Type your new password and submit.</h3>
+            <div class="attension">Wrong current password.</div>
+            <div class="attension">Not match new password and confirm password.</div>
+            <ul>
+              <li><input type="password" placeholder="Current password"></li>
               <li><input type="password" placeholder="New password"></li>
               <li><input type="password" placeholder="Confirm new password"></li>
             </ul>
-            <button class="button">Submit</button>
+            <button type="button" class="button">Modify</button>
           </div>
         </section>
       </form>

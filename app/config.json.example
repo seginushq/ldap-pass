@@ -1,4 +1,10 @@
 {
+  "server": {
+    "ssl": false,
+    "ssl_key": "./localhost.key",
+    "ssl_crt": "./localhost.crt",
+    "port": 3000
+  },
   "ldap": {
     "host": "example.com",
     "port": "389",

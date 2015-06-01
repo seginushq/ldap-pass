@@ -25,7 +25,7 @@ footer {
   color: #234059;
 }
 
-.inkblue-tie, .green-tie {
+.tie {
   padding-top: 20px;
   padding-bottom: 50px;
   overflow: hidden;
@@ -34,6 +34,11 @@ footer {
 .inkblue-tie {
   color: #eaeaea;
   background-color: #234059;
+}
+
+.black-tie {
+  color: #eaeaea;
+  background-color: #2a2a2a;
 }
 
 .green-tie {
@@ -85,11 +90,21 @@ footer {
 }
 
 .button {
-  color: #fff;
-  font-size: 16px;
-  width: 150px;
-  height: 45px;
-  margin-top: 20px;
-  border: 0px;
-  background-color: #2a2a2a;
+    color: #fff;
+    font-size: 16px;
+    width: 150px;
+    height: 45px;
+    margin-top: 20px;
+    border: 0px;
+    background-color: #2a2a2a;
+}
+
+.light-button {
+    color: #2a2a2a;
+    background-color: #eaeaea;
+}
+
+.attension {
+    color: #ff4b4b;
+    margin-bottom: 15px;
 }
