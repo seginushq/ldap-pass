@@ -1,0 +1,2 @@
+defmodule LdapPass do
+end

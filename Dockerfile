@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM ubuntu:14.04
+FROM trenpixster/elixir:latest
 
 MAINTAINER TADOKORO Saneyuki saneyan@seginus.jp
 
